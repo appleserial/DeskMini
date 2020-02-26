@@ -1,6 +1,6 @@
 # DeskMini Hackintosh
 
-![Hackintosh](test/overview.png)
+![Hackintosh](apps/overview.png)
 
 ### specs
 
