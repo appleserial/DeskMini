@@ -2,7 +2,7 @@
 
 ![Hackintosh](apps/overview.png)
 
-### specs
+### SPECS
 
 + OS: macOS Mojave 10.14.6 18G3020 x86_64 / (SMBIOS: iMac19,1)
 + CPU: Intel i5-9400 (6) @ 2.90GHz
@@ -12,35 +12,30 @@
 + RAM: 8GB x 2 [ADATA DDR4 2400](https://union-click.jd.com/jdc?e=&p=AyIGZRteEgYSAVEcWRQyEARSGV0RAxAFVR5rUV1KWQorAlBHU0VeBUVNR0ZbSkdETlcNVQtHRVNSUVNLXANBRA1XB14DS10cQQVYD21XHgVWHFkTBhMFVxteJUZOXRUcBEFXcl8NXxNSHBsHMEIPUnIeC2UaaxUDEwdTHl8cBhI3ZRtcJUN8B1QaWBEEEwFlGmsVBhUOVBhYFQoRAF0SaxICGzdVElgSAREBURtfFmxTN2UrWCUyIgdlGGtXbEdXBh5fQgEaAlJLDBAEFQ9cGAlFBkEPVUsMFQFCAldLaxcDEwNc)
 + Monitor: [DELL U2518D](https://union-click.jd.com/jdc?e=&p=AyIGZRtaHAAaAFUdWh0yEQZdHVoTAhsCVRhrUV1KWQorAlBHU0VeBUVNR0ZbSkdETlcNVQtHRVNSUVNLXANBRA1XB14DS10cQQVYD21XHgRUE10UBBIOUBtYJV1KRgVPGRwHcEQraAlXQE9%2FIWs9ZmIeC2UaaxUDEwdTHl8cBhI3ZRtcJUN8AVYfWhIFIgZlG18TABIPVRpTEAsQBWUcWxwyEg5WHFgWBBYHURg1VDIiN1YrayUCIgRlWTVHVxQDB0lTHAMUDlYeUhECG1IGGAkcARZTVR1dHQcSAmUZWhQGGw%3D%3D)
 
-### bootloader
-+ OpenCore 0.5.5
+### BOOTLOADER
++ OpenCore 0.5.6
 
-### what's working
+### HOW TO INSTALL
 
-> Everything
+  + download https://github.com/acidanthera/MacInfoPkg, and generate serial
 
-### how to install
-
-> Todo
-
-### tips
-
-+ Change Host Name
   ```
-  sudo scutil --set HostName mini
-  sudo scutil --set ComputerName mini
-  sudo scutil --set LocalHostName mini
+  $ macserial -m iMac19,1 -n 1 # SystemSerialNumber | MLB
+  C02CNSYCJV3Q | C02018101QXLNV91F
+
+  $ uuid # SystemUUID
+  bc1bf4a0-3ffc-0138-6a3f-28a159011ce8
   ```
 
-+ Generate mac serial number https://chengxuxiaohei.cn/mac-sjsm.html
+  + TODO
 
-### changelogs
+### TELEGRAM
+[Join Telegram](https://t.me/asrock_deskmini)
+
+### CHANGELOGS
 
 + macOS Mojave 10.14.6 18G3020 x86_64 🎉
 
-### Telegram
-[Join Telegram](https://t.me/asrock_deskmini)
+### CREDITS
 
-### credits
-
-> Todo
++ [xjn819 blog](https://blog.xjn819.com/?p=7)
