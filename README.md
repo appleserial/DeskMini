@@ -5,6 +5,7 @@
 ### SPECS
 
 + OS: macOS Mojave 10.14.6 18G3020 x86_64 / (SMBIOS: iMac19,1)
++ OpenCore: 0.5.6
 + CPU: Intel i5-9400 (6) @ 2.90GHz
 + GPU: Intel UHD Graphics 630
 + Wi-Fi: BCM94360CS2
@@ -21,9 +22,6 @@ My Wi-Fi card is BCM94360CS2, you need to by a NGFF card like this one. TOSHIBA 
 
 ![BCM94360CS2](apps/BCM94360CS2.png)
 ![NGFF](apps/ngff.png)
-
-### BOOTLOADER
-+ OpenCore 0.5.6
 
 ### BIOS
 
