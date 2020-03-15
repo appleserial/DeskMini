@@ -51,3 +51,8 @@ My Wi-Fi card is BCM94360CS2, you need to by a NGFF card like this one. TOSHIBA 
 ### CREDITS
 
 + [xjn819 blog](https://blog.xjn819.com/?p=7)
+
+
+### FCPX
+
+![fcpx](apps/fcpx.png)
