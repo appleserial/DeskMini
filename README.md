@@ -48,11 +48,10 @@ My Wi-Fi card is BCM94360CS2, you need to by a NGFF card like this one. TOSHIBA 
 
 + macOS Mojave 10.14.6 18G3020 x86_64 🎉
 
-### CREDITS
-
-+ [xjn819 blog](https://blog.xjn819.com/?p=7)
-
-
 ### FCPX
 
 ![fcpx](apps/fcpx.png)
+
+### CREDITS
+
++ [xjn819 blog](https://blog.xjn819.com/?p=7)
