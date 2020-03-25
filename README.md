@@ -42,9 +42,6 @@ My Wi-Fi card is BCM94360CS2, you need to by a NGFF card like this one. TOSHIBA 
 
   + Mount EFI partition and PUT EFI folder to it
 
-### CHANGELOGS
-
-+ macOS Mojave 10.14.6 18G3020 x86_64 🎉
 
 ### FCPX
 
