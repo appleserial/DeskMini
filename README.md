@@ -26,12 +26,13 @@ My Wi-Fi card is BCM94360CS2, you need to by a NGFF card like this one. TOSHIBA 
 ### BIOS
 
 + Load UEFI Defaults
-+ Advanced -> Chipset Configuration
-  + Onboard HD Audio -> Enabled
-  + Onboard HDMI HD Audio -> Enabled
-
-+ Super IO Configuration
-  + Serial Port -> Disabled
++ Advanced > Chipset Configuration > Onboard HD Audio & Onboard HDMI HD Audio: Enabled
++ Advanced > Chipset Configuration > VT-d: Disabled
++ Advanced > USB Configuration     > XHCI Hand-off: Enabled
++ Advanced > CPU Configuration     > C States Support: Disabled
++ Advanced > Security              > Secure Boot: Disabled
++ Super IO Configuration -> Serial Port: Disabled
++ BOOT > CSM: Enabled
 
 ### HOW TO INSTALL
 
