@@ -98,17 +98,21 @@
       <true/>
       <key>ForceExitBootServices</key>
       <false/>
-      <key>ProtectCsmRegion</key>
+      <key>ProtectMemoryRegions</key>
       <false/>
       <key>ProtectSecureBoot</key>
       <false/>
+      <key>ProtectUefiServices</key>
+      <false/>
       <key>ProvideCustomSlide</key>
       <true/>
+      <key>RebuildAppleMemoryMap</key>
+      <false/>
       <key>SetupVirtualMap</key>
       <true/>
-      <key>ShrinkMemoryMap</key>
-      <false/>
       <key>SignalAppleOS</key>
+      <false/>
+      <key>SyncRuntimePermissions</key>
       <false/>
     </dict>
   </dict>
@@ -500,7 +504,7 @@
       <false/>
       <key>HideSelf</key>
       <true/>
-      <key>PickerAttributes</key>
+      <key>ConsoleAttributes</key>
       <integer>0</integer>
       <key>PickerAudioAssist</key>
       <false/>
@@ -700,7 +704,7 @@
     <array>
       <string>VBoxHfs.efi</string>
       <string>ApfsDriverLoader.efi</string>
-      <string>FwRuntimeServices.efi</string>
+      <string>OpenRuntime.efi</string>
     </array>
     <key>Audio</key>
     <dict>
