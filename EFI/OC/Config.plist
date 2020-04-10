@@ -702,7 +702,7 @@
     <true/>
     <key>Drivers</key>
     <array>
-      <string>VBoxHfs.efi</string>
+      <string>HfsPlus.efi</string>
       <string>ApfsDriverLoader.efi</string>
       <string>OpenRuntime.efi</string>
     </array>
