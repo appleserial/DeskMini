@@ -719,9 +719,21 @@
     <key>Drivers</key>
     <array>
       <string>HfsPlus.efi</string>
-      <string>ApfsDriverLoader.efi</string>
       <string>OpenRuntime.efi</string>
     </array>
+    <key>APFS</key>
+    <dict>
+      <key>EnableJumpstart</key>
+      <true/>
+      <key>HideVerbose</key>
+      <true/>
+      <key>JumpstartHotPlug</key>
+      <false/>
+      <key>MinDate</key>
+      <integer>0</integer>
+      <key>MinVersion</key>
+      <integer>0</integer>
+    </dict>
     <key>Audio</key>
     <dict>
       <key>AudioSupport</key>
