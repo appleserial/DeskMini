@@ -5,7 +5,7 @@
 ### SPECS
 
 + OS: macOS Mojave 10.14.6 18G4032 x86_64 / (SMBIOS: iMac19,1) - **Support Catalina**
-+ OpenCore: 0.5.7
++ OpenCore: 0.5.8
 + CPU: Intel i5-9400 (6c6t) @ 2.90GHz
 + GPU: Intel UHD Graphics 630
 + Wi-Fi: BCM94360CS2
