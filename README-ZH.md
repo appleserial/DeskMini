@@ -4,7 +4,7 @@
 
 ### 系统信息
 
-+ 操作系统版本: macOS Mojave 10.14.6 18G4032 x86_64 / (SMBIOS: iMac19,1) - **支持Catalina**
++ 操作系统版本: macOS Mojave 10.14.6 18G5033 x86_64 / (SMBIOS: iMac19,1) - **支持Catalina**
 + OC版本: 0.5.8
 + CPU: Intel i5-9400 (6c6t) @ 2.90GHz
 + GPU: Intel UHD Graphics 630
