@@ -40,7 +40,7 @@
       </dict>
     </array>
 
-    <key>Block</key>
+    <key>Delete</key>
     <array/>
     <key>Patch</key>
     <array/>
@@ -162,7 +162,7 @@
         <data>AAAAgA==</data>
       </dict>
     </dict>
-    <key>Block</key>
+    <key>Delete</key>
     <dict>
       <key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
       <array>
@@ -337,7 +337,7 @@
       </dict>
     </array>
 
-    <key>Block</key>
+    <key>Delete</key>
     <array>
       <dict>
         <key>Comment</key>
@@ -518,8 +518,6 @@
       <string>Builtin</string>
       <key>HideAuxiliary</key>
       <false/>
-      <key>HideSelf</key>
-      <true/>
       <key>ConsoleAttributes</key>
       <integer>0</integer>
       <key>PickerAudioAssist</key>
@@ -569,6 +567,8 @@
       <true/>
       <key>AuthRestart</key>
       <false/>
+      <key>BlacklistAppleUpdate</key>
+      <true/>
       <key>ExposeSensitiveData</key>
       <integer>3</integer>
       <key>HaltLevel</key>
@@ -635,7 +635,7 @@
         <data>Rg==</data>
       </dict>
     </dict>
-    <key>Block</key>
+    <key>Delete</key>
     <dict>
       <key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
       <array>
@@ -824,13 +824,13 @@
     </dict>
     <key>Quirks</key>
     <dict>
+      <key>DeduplicateBootOrder</key>
+      <true/>
       <key>ExitBootServicesDelay</key>
       <integer>0</integer>
       <key>IgnoreInvalidFlexRatio</key>
       <false/>
       <key>ReleaseUsbOwnership</key>
-      <false/>
-      <key>RequestBootVarFallback</key>
       <false/>
       <key>RequestBootVarRouting</key>
       <true/>
