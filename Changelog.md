@@ -1,3 +1,6 @@
++ Wed Jun  3 07:38:56 CST 2020
+Update opencore to 0.5.9
+
 + Wed May 27 21:57:27 CST 2020
 Upgrade to macOS Mojave 10.14.6 18G5033 x86_64
 
