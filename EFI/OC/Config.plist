@@ -525,7 +525,7 @@
       <key>PollAppleHotKeys</key>
       <true/>
       <key>ShowPicker</key>
-      <true/>
+      <false/>
       <key>TakeoffDelay</key>
       <integer>0</integer>
       <key>Timeout</key>
@@ -624,7 +624,7 @@
       <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
       <dict>
         <key>boot-args</key>
-        <string>-v dart=0 keepsyms=1 slide=0 darkwake=0</string>
+        <string>dart=0 keepsyms=1 slide=0 darkwake=0</string>
         <key>csr-active-config</key>
         <data>AAAAAA==</data>
         <key>nvda_drv</key>
@@ -690,7 +690,7 @@
       <key>AdviseWindows</key>
       <false/>
       <key>MLB</key>
-      <string>C02901401CDLNV9UE</string>
+      <string>C02925130GULNV91F</string>
       <key>ROM</key>
       <data>ESIzAAAA</data>
       <key>SpoofVendor</key>
@@ -698,9 +698,9 @@
       <key>SystemProductName</key>
       <string>iMac19,1</string>
       <key>SystemSerialNumber</key>
-      <string>C02Y20YVJV3Q</string>
+      <string>C02YWCYDJV3Q</string>
       <key>SystemUUID</key>
-      <string>36422590-4826-0138-2235-28a159011ce8</string>
+      <string>D18B16E0-3AA2-0138-924A-1C697A0142E1</string>
     </dict>
     <key>UpdateDataHub</key>
     <true/>
