@@ -38,6 +38,14 @@
         <key>Path</key>
         <string>SSDT-PMC.aml</string>
       </dict>
+      <dict>
+        <key>Comment</key>
+        <string>GPRW</string>
+        <key>Enabled</key>
+        <true/>
+        <key>Path</key>
+        <string>SSDT-GPRW.aml</string>
+      </dict>
     </array>
 
     <key>Delete</key>
