@@ -48,8 +48,6 @@
       </dict>
     </array>
 
-    <key>Delete</key>
-    <array/>
     <key>Patch</key>
     <array/>
     <key>Quirks</key>
@@ -345,7 +343,7 @@
       </dict>
     </array>
 
-    <key>Delete</key>
+    <key>Block</key>
     <array>
       <dict>
         <key>Comment</key>
