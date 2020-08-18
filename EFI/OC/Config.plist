@@ -630,7 +630,7 @@
       <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
       <dict>
         <key>boot-args</key>
-        <string>-v dart=0 keepsyms=1 slide=0 darkwake=0</string>
+        <string>-v igfxonln=1 dart=0 keepsyms=1 slide=0 darkwake=0</string>
         <key>run-efi-updater</key>
         <string>No</string>
         <key>csr-active-config</key>

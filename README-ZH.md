@@ -4,7 +4,7 @@
 
 ### 系统信息
 
-+ 操作系统版本: macOS Mojave 10.14.6 18G6020 x86_64 / (SMBIOS: iMac19,1) - **支持Catalina**
++ 操作系统版本: macOS Catalina 10.15.6 19G2021 x86_64 / (SMBIOS: iMac19,1)
 + OC版本: 0.6
 + CPU: Intel i5-9400 (6c6t) @ 2.90GHz
 + GPU: Intel UHD Graphics 630
@@ -34,13 +34,7 @@
 + Super IO Configuration -> Serial Port: Disabled
 + BOOT > CSM: Enabled
 
-### HMDI问题(Catalina)
-
-+ 睡眠唤醒之后如果没有信号的话，可以把 `igfxonln=1` 放到 boot-args试试。
-  ```bash
-  <key>boot-args</key>
-  <string>-v igfxonln=1 dart=0 keepsyms=1 slide=0 darkwake=0</string>
-  ```
+### ~~HMDI问题(Catalina) WhateverGreen Fix black screen on igfx since 10.15.5~~
 
 ### 请我吃个冰棒
 

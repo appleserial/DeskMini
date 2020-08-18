@@ -1,3 +1,6 @@
++ Tue Aug 18 09:25:52 CST 2020
+Update macOS to 10.15.6
+
 + Tue Aug  4 20:17:55 CST 2020
 Update opencore to 0.6
 

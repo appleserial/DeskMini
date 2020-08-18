@@ -4,7 +4,7 @@
 
 ### SPECS
 
-+ OS: macOS Mojave 10.14.6 18G6020 x86_64 / (SMBIOS: iMac19,1) - **Support Catalina**
++ OS: macOS Catalina 10.15.6 19G2021 x86_64 / (SMBIOS: iMac19,1)
 + OpenCore: 0.6
 + CPU: Intel i5-9400 (6c6t) @ 2.90GHz
 + GPU: Intel UHD Graphics 630
@@ -34,13 +34,7 @@ My Wi-Fi card is BCM94360CS2, you need to by a NGFF card like this one. TOSHIBA 
 + Super IO Configuration -> Serial Port: Disabled
 + BOOT > CSM: Enabled
 
-### HDMI ISSUES(Catalina)
-
-+ If your hackintosh wake from sleep without signal, you need add `igfxonln=1` to your boot-args
-  ```bash
-  <key>boot-args</key>
-  <string>-v igfxonln=1 dart=0 keepsyms=1 slide=0 darkwake=0</string>
-  ```
+### ~~HDMI ISSUES - WhateverGreen Fix black screen on igfx since 10.15.5~~
 
 ### Buy Me A Coffee
 
