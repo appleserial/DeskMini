@@ -1,10 +1,10 @@
 # DeskMini Hackintosh
 
-![Hackintosh](apps/os.png)
+![Hackintosh](https://i.imgur.com/ncgwxCF.png)
 
 ### 系统信息
 
-+ 操作系统版本: macOS Catalina 10.15.6 19G2021 x86_64 / (SMBIOS: iMac19,1)
++ 操作系统版本: macOS Catalina 10.15.7 19H2 x86_64 / (SMBIOS: iMac19,1)
 + OC版本: 0.6.1
 + CPU: Intel i5-9400 (6c6t) @ 2.90GHz
 + GPU: Intel UHD Graphics 630
