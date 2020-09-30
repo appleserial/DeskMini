@@ -34,11 +34,10 @@
 + Super IO Configuration -> Serial Port: Disabled
 + BOOT > CSM: Enabled
 
-### ~~HMDI问题(Catalina) WhateverGreen Fix black screen on igfx since 10.15.5~~
-
 ### 请我吃个冰棒
 
 ![Buy Me A Coffee](apps/WechatPay.png)
+
 [PayPal](https://www.paypal.me/iore)
 
 ### FCPX
