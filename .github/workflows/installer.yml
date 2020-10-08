@@ -26,6 +26,7 @@ jobs:
 
     - name: Download - macOS Recovery
       run: |
+        pwd
         cd $ROOT
         curl -OL https://raw.githubusercontent.com/acidanthera/OpenCorePkg/master/Utilities/macrecovery/macrecovery.py
         python macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download
