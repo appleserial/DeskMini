@@ -17,7 +17,7 @@
 [Join Telegram](https://t.me/hackintash)
 
 ### Wi-Fi CARD
-My Wi-Fi card is BCM94360CS2, you need to by a NGFF card like this one. TOSHIBA RC500 NVMe SSD don't have any nand in the back, so it's very nice to have.
+My Wi-Fi card is BCM94360CS2, you need to get a NGFF card like this one. TOSHIBA RC500 NVMe SSD don't have any nand in the back, so it's very nice to have.
 
 ![BCM94360CS2](misc/BCM94360CS2.png)
 ![NGFF](misc/ngff.png)
