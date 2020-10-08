@@ -19,8 +19,8 @@
 ### Wi-Fi CARD
 Wi-Fi卡是白果卡，型号为BCM94360CS2，免驱。
 
-![BCM94360CS2](apps/BCM94360CS2.png)
-![NGFF](apps/ngff.png)
+![BCM94360CS2](misc/BCM94360CS2.png)
+![NGFF](misc/ngff.png)
 
 ### BIOS
 
@@ -35,12 +35,12 @@ Wi-Fi卡是白果卡，型号为BCM94360CS2，免驱。
 
 
 ### 请我喝杯咖啡
-![Buy Me A Coffee](apps/WechatPay.png)
+![Buy Me A Coffee](misc/WechatPay.png)
 
 [PayPal](https://www.paypal.me/iore)
 
 ### CINEBENCH
-![fcpx](apps/CINEBENCH.png)
+![fcpx](misc/CINEBENCH.png)
 
 ### TIPS
 + Change Host Name

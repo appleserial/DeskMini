@@ -19,8 +19,8 @@
 ### Wi-Fi CARD
 My Wi-Fi card is BCM94360CS2, you need to by a NGFF card like this one. TOSHIBA RC500 NVMe SSD don't have any nand in the back, so it's very nice to have.
 
-![BCM94360CS2](apps/BCM94360CS2.png)
-![NGFF](apps/ngff.png)
+![BCM94360CS2](misc/BCM94360CS2.png)
+![NGFF](misc/ngff.png)
 
 ### BIOS
 
@@ -35,12 +35,12 @@ My Wi-Fi card is BCM94360CS2, you need to by a NGFF card like this one. TOSHIBA 
 
 
 ### BUY ME A COFFEE
-![Buy Me A Coffee](apps/WechatPay.png)
+![Buy Me A Coffee](misc/WechatPay.png)
 
 [PayPal](https://www.paypal.me/iore)
 
 ### CINEBENCH
-![CINEBENCH](apps/CINEBENCH.jpg)
+![CINEBENCH](misc/CINEBENCH.jpg)
 
 ### TIPS
 + Change Host Name
