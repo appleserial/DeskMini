@@ -1,9 +1,8 @@
 name: installer
 
-on: [push, pull_request]
-# on:
-#   release:
-#     types: [created]
+on:
+  release:
+    types: [created]
 
 jobs:
   build:
@@ -33,14 +32,25 @@ jobs:
     - name: Compress
       run: |
         cd $ROOT
-        mkdir USB-Installer
-        tree
+        mkdir -p USB-Installer/com.apple.recovery.boot
+        cp BaseSystem* USB-Installer/com.apple.recovery.boot
+        cp -r EFI USB-Installer
+        echo 'Install macOS' > USB-Installer/com.apple.recovery.boot/.contentDetails
 
+        zip -r USB-Installer.zip USB-Installer
 
-    # - name: Release - push to release file
-    #   uses: softprops/action-gh-release@v1
-    #   if: startsWith(github.ref, 'refs/tags/')
-    #   with:
-    #     files: /opt/rt-n56u/trunk/images/*trx
-    #   env:
-    #     GITHUB_TOKEN: ${{ secrets.ACTION_GITHUB_TOKEN }}
+    - name: Release - push to release file
+      uses: softprops/action-gh-release@v1
+      if: startsWith(github.ref, 'refs/tags/')
+      with:
+        files: /home/runner/work/DeskMini/DeskMini/USB-Installer.zip
+      env:
+        GITHUB_TOKEN: ${{ secrets.ACTION_GITHUB_TOKEN }}
+
+# EFI
+#     ├── BOOT
+#     ├── OC
+# com.apple.recovery.boot
+#     ├── BaseSystem.chunklist
+#     └── BaseSystem.dmg
+#     └── .contentDetails
