@@ -16,8 +16,7 @@
 ### TELEGRAM
 [Join Telegram](https://t.me/hackintash)
 
-### Wi-Fi Card
-
+### Wi-Fi CARD
 My Wi-Fi card is BCM94360CS2, you need to by a NGFF card like this one. TOSHIBA RC500 NVMe SSD don't have any nand in the back, so it's very nice to have.
 
 ![BCM94360CS2](apps/BCM94360CS2.png)
@@ -35,16 +34,22 @@ My Wi-Fi card is BCM94360CS2, you need to by a NGFF card like this one. TOSHIBA 
 + BOOT > CSM: Enabled
 
 
-### Buy Me A Coffee
-
+### BUY ME A COFFEE
 ![Buy Me A Coffee](apps/WechatPay.png)
 
 [PayPal](https://www.paypal.me/iore)
 
-### FCPX
+### CINEBENCH
+![fcpx](apps/CINEBENCH.png)
 
-![fcpx](apps/fcpx.png)
+### TIPS
++ Change Host Name
+  ```
+  sudo scutil --set HostName mini
+  sudo scutil --set ComputerName mini
+  sudo scutil --set LocalHostName mini
+  ```
 
 ### CREDITS
-
++ [acidanthera](https://github.com/acidanthera/OpenCorePkg)
 + [xjn819 blog](https://blog.xjn819.com/?p=7)
