@@ -19,7 +19,6 @@ jobs:
         python-version: 3.8
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
         sudo apt-get update
         sudo apt-get install zip tree -y
 
@@ -46,11 +45,3 @@ jobs:
         files: /home/runner/work/DeskMini/DeskMini/USB-Installer.zip
       env:
         GITHUB_TOKEN: ${{ secrets.ACTION_GITHUB_TOKEN }}
-
-# EFI
-#     ├── BOOT
-#     ├── OC
-# com.apple.recovery.boot
-#     ├── BaseSystem.chunklist
-#     └── BaseSystem.dmg
-#     └── .contentDetails
