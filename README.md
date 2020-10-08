@@ -40,7 +40,7 @@ My Wi-Fi card is BCM94360CS2, you need to by a NGFF card like this one. TOSHIBA 
 [PayPal](https://www.paypal.me/iore)
 
 ### CINEBENCH
-![fcpx](apps/CINEBENCH.png)
+![CINEBENCH](apps/CINEBENCH.jpg)
 
 ### TIPS
 + Change Host Name
