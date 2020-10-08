@@ -1,0 +1,47 @@
+name: installer
+
+on: [push, pull_request]
+# on:
+#   release:
+#     types: [created]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    env:
+      ROOT: /home/runner/work/builder/DeskMini
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        sudo apt-get update
+        sudo apt-get install zip tree -y
+
+    - name: Download - macOS Recovery
+      run: |
+        cd $ROOT
+        curl -OL https://raw.githubusercontent.com/acidanthera/OpenCorePkg/master/Utilities/macrecovery/macrecovery.py
+        python macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download
+
+    - name: Compress
+      run: |
+        cd $ROOT
+        mkdir USB-Installer
+        pwd
+        tree
+
+
+    # - name: Release - push to release file
+    #   uses: softprops/action-gh-release@v1
+    #   if: startsWith(github.ref, 'refs/tags/')
+    #   with:
+    #     files: /opt/rt-n56u/trunk/images/*trx
+    #   env:
+    #     GITHUB_TOKEN: ${{ secrets.ACTION_GITHUB_TOKEN }}
