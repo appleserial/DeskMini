@@ -5,7 +5,7 @@
 ### SPECS
 
 + OS: macOS Catalina 10.15.7 19H2 x86_64 / (SMBIOS: iMac19,1)
-+ OpenCore: 0.6.2
++ OpenCore: 0.6.3
 + CPU: Intel i5-9400 (6c6t) @ 2.90GHz
 + GPU: Intel UHD Graphics 630
 + Wi-Fi: BCM94360CS2
