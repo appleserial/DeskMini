@@ -25,12 +25,12 @@ Wi-Fi卡是白果卡，型号为BCM94360CS2，免驱。
 ### BIOS
 
 + Load UEFI Defaults
-+ Advanced > Chipset Configuration > Onboard HD Audio & Onboard HDMI HD Audio: Enabled
-+ Advanced > Chipset Configuration > VT-d: Disabled
-+ Advanced > USB Configuration     > XHCI Hand-off: Enabled
-+ Advanced > CPU Configuration     > C States Support: Disabled
-+ Advanced > Security              > Secure Boot: Disabled
-+ Super IO Configuration -> Serial Port: Disabled
++ Advanced > Chipset Configuration  > Onboard HD Audio & Onboard HDMI HD Audio: Enabled
++ Advanced > Chipset Configuration  > VT-d: Disabled
++ Advanced > USB Configuration      > XHCI Hand-off: Enabled
++ Advanced > CPU Configuration      > C States Support: Disabled
++ Advanced > Super IO Configuration > Serial Port: Disabled
++ Security > Secure Boot: Disabled
 + BOOT > CSM: Enabled
 
 
