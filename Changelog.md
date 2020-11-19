@@ -1,3 +1,7 @@
+### Thu Nov 19 23:18:51 CST 2020
+
+  + Upgrade macOS to macOS Big Sur 11.0.1 20B29 x86_64
+
 ### Tue Nov  3 20:41:22 CST 2020
 
   + Update opencore to 0.6.3

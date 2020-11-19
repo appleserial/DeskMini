@@ -1,10 +1,10 @@
 # DeskMini Hackintosh
 
-![Hackintosh](https://i.imgur.com/ncgwxCF.png)
+![Hackintosh](https://i.imgur.com/WZoI2D2.png)
 
 ### SPECS
 
-+ 系统版本: macOS Catalina 10.15.7 19H2 x86_64 / (SMBIOS: iMac19,1)
++ 系统版本: macOS Big Sur 11.0.1 20B29 x86_64 / (SMBIOS: iMac19,1)
 + OpenCore: 0.6.3
 + CPU: Intel i5-9400 (6c6t) @ 2.90GHz
 + GPU: Intel UHD Graphics 630
