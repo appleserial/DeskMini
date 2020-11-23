@@ -43,6 +43,24 @@ Wi-Fi卡是白果卡，型号为BCM94360CS2，免驱。
 ![fcpx](misc/CINEBENCH.png)
 
 ### TIPS
+
++ pmset
+  ```
+  # https://gist.github.com/csrutil/b2cce932dda8b226f37be2880215aee6
+  sudo pmset -c sleep 30
+  sudo pmset -c displaysleep 30
+  sudo pmset -c disksleep 30
+  sudo pmset -c hibernatemode 0
+  sudo pmset -c standby 0
+  sudo pmset -c autopoweroff 0
+  sudo pmset -c tcpkeepalive 1
+  ```
+
++ Disable the Spotlight indexes
+  ```
+  sudo mdutil -a -i off
+  ```
+
 + Change Host Name
   ```
   sudo scutil --set HostName mini
