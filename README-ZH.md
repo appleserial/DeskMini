@@ -35,9 +35,8 @@ Wi-Fi卡是白果卡，型号为BCM94360CS2，免驱。
 
 
 ### 请我喝杯咖啡
-![Buy Me A Coffee](misc/WechatPay.png)
+Bitcoin Address 15iEcYV1Xpr3xM4Ytyg9DCfcFwyifRFdQM
 
-[PayPal](https://www.paypal.me/iore)
 
 ### CINEBENCH
 ![fcpx](misc/CINEBENCH.png)
