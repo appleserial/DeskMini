@@ -38,7 +38,7 @@ Load UEFI Defaults
 
 
 ## BUY ME A COFFEE
-Bitcoin ![15iEcYV1Xpr3xM4Ytyg9DCfcFwyifRFdQM](misc/BTC.png?raw=true) `15iEcYV1Xpr3xM4Ytyg9DCfcFwyifRFdQM`
+![15iEcYV1Xpr3xM4Ytyg9DCfcFwyifRFdQM](misc/BTC.png?raw=true) `15iEcYV1Xpr3xM4Ytyg9DCfcFwyifRFdQM`
 
 ## CINEBENCH
 ![CINEBENCH](misc/CINEBENCH.jpg)
