@@ -37,8 +37,9 @@ Load UEFI Defaults
 + BOOT > CSM: Enabled
 
 
-## BUY ME A COFFEE
-![15iEcYV1Xpr3xM4Ytyg9DCfcFwyifRFdQM](misc/BTC.png?raw=true) `15iEcYV1Xpr3xM4Ytyg9DCfcFwyifRFdQM`
+## Donating 💸
+
+Feel free to [Buy Me a Coffee](https://www.buymeacoffee.com/csrutil) or ![15iEcYV1Xpr3xM4Ytyg9DCfcFwyifRFdQM](misc/BTC.png?raw=true) `15iEcYV1Xpr3xM4Ytyg9DCfcFwyifRFdQM`
 
 ## CINEBENCH
 ![CINEBENCH](misc/CINEBENCH.jpg)
