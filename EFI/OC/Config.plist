@@ -142,8 +142,6 @@
         <data>BwCbPg==</data>
         <key>device-id</key>
         <data>mz4AAA==</data>
-        <key>enable-hdmi20</key>
-        <data>AQAAAA==</data>
         <key>framebuffer-con0-enable</key>
         <data>AQAAAA==</data>
         <key>framebuffer-con0-pipe</key>
@@ -599,6 +597,8 @@
       <true/>
       <key>AuthRestart</key>
       <false/>
+      <key>BlacklistAppleUpdate</key>
+      <true/>
       <key>ExposeSensitiveData</key>
       <integer>3</integer>
       <key>HaltLevel</key>
