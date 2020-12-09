@@ -1,5 +1,8 @@
 # DeskMini Hackintosh
 
+[![HitCount](http://hits.dwyl.com/appleserial/DeskMini.svg)](http://hits.dwyl.com/appleserial/DeskMini)
+
+
 This is the hackintosh for the deskmini 310
 
 ![Hackintosh](https://i.imgur.com/WZoI2D2.png)
