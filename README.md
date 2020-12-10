@@ -1,8 +1,4 @@
 # DeskMini Hackintosh
-
-[![HitCount](http://hits.dwyl.com/appleserial/DeskMini.svg)](http://hits.dwyl.com/appleserial/DeskMini)
-
-
 This is the hackintosh for the deskmini 310
 
 ![Hackintosh](https://i.imgur.com/WZoI2D2.png)
@@ -47,31 +43,27 @@ Feel free to [Buy Me a Coffee](https://www.buymeacoffee.com/csrutil) or ![15iEcY
 ## CINEBENCH
 ![CINEBENCH](misc/CINEBENCH.jpg)
 
-## TIPS
+## macOS Tips
 
-### pmset
-  ```
-  # https://gist.github.com/csrutil/b2cce932dda8b226f37be2880215aee6
-  sudo pmset -c sleep 30
-  sudo pmset -c displaysleep 30
-  sudo pmset -c disksleep 30
-  sudo pmset -c hibernatemode 0
-  sudo pmset -c standby 0
-  sudo pmset -c autopoweroff 0
-  sudo pmset -c tcpkeepalive 1
-  ```
+```
+# https://gist.github.com/csrutil/b2cce932dda8b226f37be2880215aee6
+sudo pmset -c sleep 30
+sudo pmset -c displaysleep 30
+sudo pmset -c disksleep 30
+sudo pmset -c hibernatemode 0
+sudo pmset -c standby 0
+sudo pmset -c autopoweroff 0
+sudo pmset -c tcpkeepalive 1
 
-### disable the Spotlight indexes
-  ```
-  sudo mdutil -a -i off
-  ```
+# disable the Spotlight indexes
+sudo mdutil -a -i off
 
-### change host name
-  ```
-  sudo scutil --set HostName mini
-  sudo scutil --set ComputerName mini
-  sudo scutil --set LocalHostName mini
-  ```
+# change host name
+
+sudo scutil --set HostName mini
+sudo scutil --set ComputerName mini
+sudo scutil --set LocalHostName mini
+```
 
 ## CREDITS
 + [acidanthera](https://github.com/acidanthera/OpenCorePkg)
