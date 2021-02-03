@@ -532,6 +532,8 @@
       <false/>
       <key>PowerTimeoutKernelPanic</key>
       <false/>
+      <key>SetApfsTrimTimeout</key>
+      <integer>-1</integer>
       <key>ThirdPartyDrives</key>
       <true/>
       <key>XhciPortLimit</key>
@@ -737,12 +739,18 @@
     <dict>
       <key>AdviseWindows</key>
       <false/>
+      <key>MaxBIOSVersion</key>
+      <false/>
       <key>MLB</key>
       <string>C02901401CDLNV9UE</string>
+      <key>ProcessorType</key>
+      <integer>0</integer>
       <key>ROM</key>
       <data>ESIzAAAA</data>
       <key>SpoofVendor</key>
       <true/>
+      <key>SystemMemoryStatus</key>
+      <string>Auto</string>
       <key>SystemProductName</key>
       <string>iMac19,1</string>
       <key>SystemSerialNumber</key>
@@ -758,6 +766,8 @@
     <true/>
     <key>UpdateSMBIOSMode</key>
     <string>Create</string>
+    <key>UseRawUuidEncoding</key>
+    <false/>
   </dict>
 
   <key>UEFI</key>
@@ -876,6 +886,8 @@
     </dict>
     <key>Quirks</key>
     <dict>
+      <key>DisableSecurityPolicy</key>
+      <false/>
       <key>ExitBootServicesDelay</key>
       <integer>0</integer>
       <key>IgnoreInvalidFlexRatio</key>
