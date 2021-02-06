@@ -1,13 +1,13 @@
 # DeskMini Hackintosh
 This is the hackintosh for the deskmini 310
 
-![Hackintosh](https://i.imgur.com/WZoI2D2.png)
+![Hackintosh](https://i.imgur.com/vIhClKa.png)
 
 ## SPECS
 
-+ OS: macOS 11.1 20C69 x86_64 / (SMBIOS: iMac19,1)
-+ OpenCore: 0.6.5
-+ CPU: Intel i5-9400 (6c6t) @ 2.90GHz
++ OS: macOS 11.2 20D64 x86_64 / (SMBIOS: iMac19,1)
++ OpenCore: 0.6.6
++ CPU: Intel i9-9900T (8c16t ES) @ 1.7GHz
 + GPU: Intel UHD Graphics 630
 + Wi-Fi: BCM94360CS2
 + SSD: 512GB [TOSHIBA RC500 NVMe](https://union-click.jd.com/jdc?e=&p=AyIGZRprFQMTBlQeUxMEGwFdKx9KWkxYZUIeUENQDEsFA1BWThgJBABAHUBZCQUdRUFGGRJDD1MdQlUQQwVKDFRXFk8jQA4SBlQaWhAKFAFcHVMlVHdgM2koUgd3UTdBP3ZiZHoLGg0TYh4LZRprFQMTB1MeXxwGEjdlG1wlVHwHVBpaFAMTBVYSaxQyEgNcHlsdARYAURxYFzIVB1wrWxwBFQRWHV8VBhFpFCtrJQEiN2UbaxYyUGkHTAkdUBYHARhfRlIXUlBMC0AKRg9cE1oVVhUEB0kLQTIQBlQfUg%3D%3D)

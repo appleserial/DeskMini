@@ -1,3 +1,8 @@
+### Sat Feb  6 13:33:16 CST 2021
+
+ + Update macOS to macOS 11.2 20D64 x86_64
+
+
 ### Tue Dec 15 21:06:19 CST 2020
 
  + Update macOS to macOS 11.1 20C69 x86_64
