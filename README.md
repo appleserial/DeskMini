@@ -1,11 +1,11 @@
 # DeskMini Hackintosh
 This is the hackintosh for the deskmini 310
 
-![Hackintosh](https://i.imgur.com/vIhClKa.png)
+![Hackintosh](https://i.imgur.com/PugndEW.png)
 
 ## SPECS
 
-+ OS: macOS 11.2.2 20D80 x86_64 / (SMBIOS: iMac19,1)
++ OS: macOS 11.2.3 20D91 x86_64 / (SMBIOS: iMac19,1)
 + OpenCore: 0.6.7
 + CPU: Intel i9-9900T (8c16t ES) @ 1.7GHz
 + GPU: Intel UHD Graphics 630
