@@ -102,6 +102,8 @@
       <true/>
       <key>EnableWriteUnprotector</key>
       <true/>
+      <key>ForceBooterSignature</key>
+      <false/>
       <key>ForceExitBootServices</key>
       <false/>
       <key>ProtectMemoryRegions</key>
@@ -396,6 +398,8 @@
       <dict>
         <key>Base</key>
         <string>__ZN8AppleRTC18setupDateTimeAlarmEPK11RTCDateTime</string>
+        <key>BaseSkip</key>
+        <integer>0</integer>
         <key>Comment</key>
         <string>Disable RTC wake scheduling</string>
         <key>Count</key>
@@ -424,6 +428,8 @@
       <dict>
         <key>Base</key>
         <string>__ZN8AppleRTC14updateChecksumEv</string>
+        <key>BaseSkip</key>
+        <integer>0</integer>
         <key>Comment</key>
         <string>Disable RTC checksum update on poweroff</string>
         <key>Count</key>
@@ -452,6 +458,8 @@
       <dict>
         <key>Base</key>
         <string>_AcpiOsVprintf</string>
+        <key>BaseSkip</key>
+        <integer>0</integer>
         <key>Comment</key>
         <string>Disable ACPI logging</string>
         <key>Count</key>
@@ -480,6 +488,8 @@
       <dict>
         <key>Base</key>
         <string>__ZN11BCM5701Enet14getAdapterInfoEv</string>
+        <key>BaseSkip</key>
+        <integer>0</integer>
         <key>Comment</key>
         <string>Broadcom BCM57785 patch</string>
         <key>Count</key>
@@ -627,6 +637,20 @@
         <string>VerifyMsrE2</string>
         <key>Path</key>
         <string>VerifyMsrE2.efi</string>
+      </dict>
+      <dict>
+        <key>Arguments</key>
+        <string></string>
+        <key>Auxiliary</key>
+        <false/>
+        <key>Comment</key>
+        <string>Not signed for security reasons</string>
+        <key>Enabled</key>
+        <true/>
+        <key>Name</key>
+        <string>ControlMsrE2</string>
+        <key>Path</key>
+        <string>ControlMsrE2.efi</string>
       </dict>
       <dict>
         <key>Arguments</key>
