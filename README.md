@@ -5,8 +5,8 @@ This is the hackintosh for the deskmini 310
 
 ## SPECS
 
-+ OS: macOS 11.2.3 20D91 x86_64 / (SMBIOS: iMac19,1)
-+ OpenCore: 0.6.8
++ OS: macOS 11.3 20E232 x86_64 / (SMBIOS: iMac19,1)
++ OpenCore: 0.6.9
 + CPU: Intel i9-9900T (8c16t ES) @ 1.7GHz
 + GPU: Intel UHD Graphics 630
 + Wi-Fi: BCM94360CS2
@@ -68,5 +68,6 @@ sudo spctl --master-disable
 ```
 
 ## CREDITS
-+ [acidanthera](https://github.com/acidanthera/OpenCorePkg)
-+ [xjn819 blog](https://blog.xjn819.com/?p=7)
+- [corpnewt - corpnewt](https://github.com/corpnewt)
+- [acidanthera](https://github.com/acidanthera)
+- [xjn819 blog](https://blog.xjn819.com/)
