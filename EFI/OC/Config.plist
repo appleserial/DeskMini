@@ -540,6 +540,8 @@
       <false/>
       <key>PowerTimeoutKernelPanic</key>
       <false/>
+      <key>ProvideCurrentCpuInfo</key>
+      <false/>
       <key>SetApfsTrimTimeout</key>
       <integer>-1</integer>
       <key>ThirdPartyDrives</key>
@@ -622,6 +624,20 @@
     </dict>
     <key>Tools</key>
     <array>
+      <dict>
+        <key>Arguments</key>
+        <string></string>
+        <key>Auxiliary</key>
+        <false/>
+        <key>Comment</key>
+        <string>Not signed for security reasons</string>
+        <key>Enabled</key>
+        <true/>
+        <key>Name</key>
+        <string>CsrUtil</string>
+        <key>Path</key>
+        <string>CsrUtil.efi</string>
+      </dict>
       <dict>
         <key>Arguments</key>
         <string></string>
@@ -759,7 +775,7 @@
     <true/>
     <key>Generic</key>
     <dict>
-      <key>AdviseWindows</key>
+      <key>AdviseFeatures</key>
       <false/>
       <key>MaxBIOSVersion</key>
       <false/>
