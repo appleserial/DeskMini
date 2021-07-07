@@ -62,6 +62,8 @@
       <false/>
       <key>ResetLogoStatus</key>
       <false/>
+      <key>SyncTableIds</key>
+      <false/>
     </dict>
   </dict>
 
@@ -392,128 +394,7 @@
       <string></string>
     </dict>
     <key>Patch</key>
-    <array>
-      <dict>
-        <key>Base</key>
-        <string>__ZN8AppleRTC18setupDateTimeAlarmEPK11RTCDateTime</string>
-        <key>BaseSkip</key>
-        <integer>0</integer>
-        <key>Comment</key>
-        <string>Disable RTC wake scheduling</string>
-        <key>Count</key>
-        <integer>1</integer>
-        <key>Enabled</key>
-        <true/>
-        <key>Find</key>
-        <data></data>
-        <key>Identifier</key>
-        <string>com.apple.driver.AppleRTC</string>
-        <key>Limit</key>
-        <integer>0</integer>
-        <key>Mask</key>
-        <data></data>
-        <key>MaxKernel</key>
-        <string></string>
-        <key>MinKernel</key>
-        <string>19.0.0</string>
-        <key>Replace</key>
-        <data>ww==</data>
-        <key>ReplaceMask</key>
-        <data></data>
-        <key>Skip</key>
-        <integer>0</integer>
-      </dict>
-      <dict>
-        <key>Base</key>
-        <string>__ZN8AppleRTC14updateChecksumEv</string>
-        <key>BaseSkip</key>
-        <integer>0</integer>
-        <key>Comment</key>
-        <string>Disable RTC checksum update on poweroff</string>
-        <key>Count</key>
-        <integer>1</integer>
-        <key>Enabled</key>
-        <false/>
-        <key>Find</key>
-        <data></data>
-        <key>Identifier</key>
-        <string>com.apple.driver.AppleRTC</string>
-        <key>Limit</key>
-        <integer>0</integer>
-        <key>Mask</key>
-        <data></data>
-        <key>MaxKernel</key>
-        <string></string>
-        <key>MinKernel</key>
-        <string></string>
-        <key>Replace</key>
-        <data>ww==</data>
-        <key>ReplaceMask</key>
-        <data></data>
-        <key>Skip</key>
-        <integer>0</integer>
-      </dict>
-      <dict>
-        <key>Base</key>
-        <string>_AcpiOsVprintf</string>
-        <key>BaseSkip</key>
-        <integer>0</integer>
-        <key>Comment</key>
-        <string>Disable ACPI logging</string>
-        <key>Count</key>
-        <integer>0</integer>
-        <key>Enabled</key>
-        <false/>
-        <key>Find</key>
-        <data></data>
-        <key>Identifier</key>
-        <string>com.apple.driver.AppleACPIPlatform</string>
-        <key>Limit</key>
-        <integer>0</integer>
-        <key>Mask</key>
-        <data></data>
-        <key>MaxKernel</key>
-        <string>18.5.0</string>
-        <key>MinKernel</key>
-        <string>18.5.0</string>
-        <key>Replace</key>
-        <data>ww==</data>
-        <key>ReplaceMask</key>
-        <data></data>
-        <key>Skip</key>
-        <integer>0</integer>
-      </dict>
-      <dict>
-        <key>Base</key>
-        <string>__ZN11BCM5701Enet14getAdapterInfoEv</string>
-        <key>BaseSkip</key>
-        <integer>0</integer>
-        <key>Comment</key>
-        <string>Broadcom BCM57785 patch</string>
-        <key>Count</key>
-        <integer>1</integer>
-        <key>Enabled</key>
-        <false/>
-        <key>Find</key>
-        <data>6AAA//9miYMABQAA</data>
-        <key>Identifier</key>
-        <string>com.apple.iokit.AppleBCM5701Ethernet</string>
-        <key>Limit</key>
-        <integer>0</integer>
-        <key>Mask</key>
-        <data>/wAA////////////</data>
-        <key>MaxKernel</key>
-        <string></string>
-        <key>MinKernel</key>
-        <string></string>
-        <key>Replace</key>
-        <data>uLQWAABmiYMABQAA</data>
-        <key>ReplaceMask</key>
-        <data></data>
-        <key>Skip</key>
-        <integer>0</integer>
-      </dict>
-    </array>
+    <array/>
     <key>Quirks</key>
     <dict>
       <key>AppleCpuPmCfgLock</key>
@@ -896,8 +777,6 @@
       <key>AppleAudio</key>
       <false/>
       <key>AppleBootPolicy</key>
-      <false/>
-      <key>AppleEvent</key>
       <false/>
       <key>AppleImageConversion</key>
       <false/>
