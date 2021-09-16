@@ -5,8 +5,8 @@ This is the hackintosh for the deskmini 310
 
 ## SPECS
 
-+ OS: macOS 11.4 20F71 x86_64 / (SMBIOS: iMac19,1)
-+ OpenCore: 0.7
++ OS: macOS 11.6 20G165 x86_64 / (SMBIOS: iMac19,1)
++ OpenCore: 0.7.3
 + CPU: Intel i9-9900T (8c16t ES) @ 1.7GHz
 + GPU: Intel UHD Graphics 630
 + Wi-Fi: BCM94360CS2

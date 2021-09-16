@@ -697,8 +697,22 @@
     <true/>
     <key>Drivers</key>
     <array>
-      <string>HfsPlus.efi</string>
-      <string>OpenRuntime.efi</string>
+      <dict>
+        <key>Path</key>
+        <string>HfsPlus.efi</string>
+        <key>Enabled</key>
+        <true/>
+        <key>Arguments</key>
+        <string></string>
+      </dict>
+      <dict>
+        <key>Path</key>
+        <string>OpenRuntime.efi</string>
+        <key>Enabled</key>
+        <true/>
+        <key>Arguments</key>
+        <string></string>
+      </dict>
     </array>
     <key>APFS</key>
     <dict>

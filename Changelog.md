@@ -1,67 +1,71 @@
-### Thu Apr  8 21:45:57 CST 2021
- + Update OC to 0.6.8
+Thu Sep 16 20:39:21 CST 2021
+- Update OC to 0.7.3
+- Update OS to macOS 11.6 20G165 x86_64
 
-### Tue Mar  2 20:30:44 CST 2021
+Thu Apr  8 21:45:57 CST 2021
+- Update OC to 0.6.8
 
- + Update macOS 11.2.2 20D80 x86_64
- + Update OC to 0.6.7
+Tue Mar  2 20:30:44 CST 2021
 
-
-### Sat Feb  6 13:33:16 CST 2021
-
- + Update macOS to macOS 11.2 20D64 x86_64
-
-
-### Tue Dec 15 21:06:19 CST 2020
-
- + Update macOS to macOS 11.1 20C69 x86_64
+- Update macOS 11.2.2 20D80 x86_64
+- Update OC to 0.6.7
 
 
-### Thu Nov 19 23:18:51 CST 2020
+Sat Feb  6 13:33:16 CST 2021
 
-  + Upgrade macOS to macOS Big Sur 11.0.1 20B29 x86_64
+- Update macOS to macOS 11.2 20D64 x86_64
 
-### Tue Nov  3 20:41:22 CST 2020
 
-  + Update opencore to 0.6.3
+Tue Dec 15 21:06:19 CST 2020
 
-### Thu Oct  8 16:59:20 CST 2020
+- Update macOS to macOS 11.1 20C69 x86_64
 
-  + Update opencore to 0.6.2
-  + Update macOS to Catalina 10.15.7 19H2 x86_64
 
-### Tue Sep  8 19:54:17 CST 2020
+Thu Nov 19 23:18:51 CST 2020
 
-  Update opencore to 0.6.1
+- Upgrade macOS to macOS Big Sur 11.0.1 20B29 x86_64
 
-### Tue Aug 18 09:25:52 CST 2020
+Tue Nov  3 20:41:22 CST 2020
 
-  Update macOS to 10.15.6
+- Update opencore to 0.6.3
 
-### Tue Aug  4 20:17:55 CST 2020
+Thu Oct  8 16:59:20 CST 2020
 
-  Update opencore to 0.6
+- Update opencore to 0.6.2
+- Update macOS to Catalina 10.15.7 19H2 x86_64
 
-### Thu Jul 16 20:06:59 CST 2020
+Tue Sep  8 19:54:17 CST 2020
 
-  Update macOS Mojave 10.14.6 18G6020 x86_64
+- Update opencore to 0.6.1
 
-### Wed Jun  3 07:38:56 CST 2020
+Tue Aug 18 09:25:52 CST 2020
 
-  Update opencore to 0.5.9
+- Update macOS to 10.15.6
 
-### Wed May 27 21:57:27 CST 2020
+Tue Aug  4 20:17:55 CST 2020
 
-  Update macOS Mojave 10.14.6 18G5033 x86_64
+- Update opencore to 0.6
 
-### Tue Apr  7 21:50:51 CST 2020
+Thu Jul 16 20:06:59 CST 2020
 
-  Update opencore to 0.5.7
+- Update macOS Mojave 10.14.6 18G6020 x86_64
 
-### Wed Mar 25 20:09:03 CST 2020
+Wed Jun  3 07:38:56 CST 2020
 
-  Update macOS Mojave 10.14.6 18G4032 x86_64
+- Update opencore to 0.5.9
 
-### macOS Mojave 10.14.6 18G3020 x86_64
+Wed May 27 21:57:27 CST 2020
 
-  Init macOS
+- Update macOS Mojave 10.14.6 18G5033 x86_64
+
+Tue Apr  7 21:50:51 CST 2020
+
+- Update opencore to 0.5.7
+
+Wed Mar 25 20:09:03 CST 2020
+
+- Update macOS Mojave 10.14.6 18G4032 x86_64
+
+macOS Mojave 10.14.6 18G3020 x86_64
+
+- Init macOS
