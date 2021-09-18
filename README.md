@@ -1,7 +1,7 @@
 # DeskMini Hackintosh
 This is the hackintosh for the deskmini 310
 
-![Hackintosh](https://i.imgur.com/WgWD3yP.png)
+![Hackintosh](https://i.imgur.com/1U7QlUS.png)
 
 ## SPECS
 
