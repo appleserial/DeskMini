@@ -1,3 +1,6 @@
+Fri Oct  8 20:08:54 CST 2021
+- Update OC to 0.7.4
+
 Thu Sep 16 20:39:21 CST 2021
 - Update OC to 0.7.3
 - Update OS to macOS 11.6 20G165 x86_64
