@@ -425,6 +425,8 @@
       <false/>
       <key>ProvideCurrentCpuInfo</key>
       <false/>
+      <key>ProvideCurrentCpuInfo</key>
+      <false/>
       <key>SetApfsTrimTimeout</key>
       <integer>-1</integer>
       <key>ThirdPartyDrives</key>
@@ -564,6 +566,20 @@
         <string>UEFI Shell</string>
         <key>Path</key>
         <string>OpenShell.efi</string>
+      </dict>
+      <dict>
+        <key>Arguments</key>
+        <string></string>
+        <key>Auxiliary</key>
+        <false/>
+        <key>Comment</key>
+        <string>Not signed for security reasons</string>
+        <key>Enabled</key>
+        <true/>
+        <key>Name</key>
+        <string>TpmInfo</string>
+        <key>Path</key>
+        <string>TpmInfo.efi</string>
       </dict>
       <dict>
         <key>Arguments</key>
@@ -737,17 +753,23 @@
       <integer>0</integer>
       <key>AudioDevice</key>
       <string>PciRoot(0x0)/Pci(0x1f,0x3)</string>
-      <key>AudioOut</key>
-      <integer>0</integer>
+      <key>AudioOutMask</key>
+      <integer>1</integer>
       <key>AudioSupport</key>
       <false/>
-      <key>MinimumVolume</key>
-      <integer>20</integer>
+      <key>DisconnectHda</key>
+      <false/>
+      <key>MaximumGain</key>
+      <integer>-15</integer>
+      <key>MinimumAssistGain</key>
+      <integer>-30</integer>
+      <key>MinimumAudibleGain</key>
+      <integer>-55</integer>
       <key>PlayChime</key>
       <string>Auto</string>
+      <key>ResetTrafficClass</key>
+      <false/>
       <key>SetupDelay</key>
-      <integer>0</integer>
-      <key>VolumeAmplifier</key>
       <integer>0</integer>
     </dict>
     <key>Input</key>
@@ -781,6 +803,8 @@
       <false/>
       <key>ProvideConsoleGop</key>
       <true/>
+      <key>ReconnectGraphicsOnConnect</key>
+      <false/>
       <key>DirectGopRendering</key>
       <false/>
       <key>ReconnectOnResChange</key>
@@ -822,6 +846,8 @@
       <key>ActivateHpetSupport</key>
       <false/>
       <key>DisableSecurityPolicy</key>
+      <false/>
+      <key>EnableVmx</key>
       <false/>
       <key>ExitBootServicesDelay</key>
       <integer>0</integer>
